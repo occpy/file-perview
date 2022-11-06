@@ -1,0 +1,44 @@
+{
+  "name": "previewmore",
+  "private": false,
+  "version": "0.1.0",
+  "type": "module",
+  "files": ["dist"],
+  "author": "LinMJ",
+  "license": "MIT",
+  "repository": {
+    "type": "git",
+    "url": "git://github.com/occpy/file-mix-preview.git"
+  },
+  "main": "./dist/PreviewMore.umd.cjs",
+  "module": "./dist/PreviewMore.js",
+  "exports": {
+    ".": {
+      "import": "./dist/PreviewMore.js",
+      "require": "./dist/PreviewMore.umd.cjs"
+    }
+  },
+  "scripts": {
+    "dev": "vite",
+    "build": "vite build",
+    "preview": "vite preview"
+  },
+  "dependencies": {
+    "vue": "^3.2.37",
+    "@handsontable/vue3": "^12.2.0",
+    "axios": "^0.24.0",
+    "docx-preview": "^0.1.13",
+    "exceljs": "^4.3.0",
+    "handsontable": "^12.2.0",
+    "jszip": "^3.10.1",
+    "mime": "^3.0.0",
+    "vue3-print-nb": "^0.1.4"
+  },
+  "devDependencies": {
+    "@types/mime": "^3.0.1",
+    "@vitejs/plugin-vue": "^3.1.0",
+    "typescript": "^4.6.4",
+    "vite": "^3.1.0",
+    "vue-tsc": "^0.40.4"
+  }
+}
