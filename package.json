@@ -8,7 +8,7 @@
   "license": "MIT",
   "repository": {
     "type": "git",
-    "url": "git://github.com/occpy/file-mix-preview.git"
+    "url": "git@github.com:occpy/previewmore.git"
   },
   "main": "./dist/PreviewMore.umd.cjs",
   "module": "./dist/PreviewMore.js",
